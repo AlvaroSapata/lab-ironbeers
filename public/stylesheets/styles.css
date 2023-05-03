@@ -5,3 +5,91 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+nav {
+  background-color: #2081c3;
+  padding: 10px 10px 10px 40px;
+  display: flex;
+  gap: 12px;
+  box-shadow: 0 2px 4px rgb(128, 124, 124);
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.homeHbs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.homeHbs a {
+  color: white;
+  text-decoration: none;
+  background-color: #2081c3;
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(128, 124, 124);
+}
+.ironhack {
+  color: white;
+  text-decoration: none;
+  background-color: #0a2c42;
+  padding: 2px;
+  margin: 20px 0px 0px 0px;
+}
+
+#randomBeer {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 50px;
+  max-width: 600px;
+  word-wrap: break-word;
+  margin-bottom: 200px;
+}
+
+#randomBeer img {
+  width: 50px;
+  margin-right: 50px;
+}
+
+#randomBeer em {
+  color: #bfbfbf;
+}
+
+#allBeers {
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+}
+
+#allBeers img {
+  height: 150px;
+  width: 40px;
+}
+
+#allBeers .card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 400px;
+  margin: 50px 30px 10px 30px;
+}
+
+#allBeers em {
+  color: #bfbfbf;
+}
+
+#allBeers h2 {
+  text-decoration: none;
+  color: black;
+}
